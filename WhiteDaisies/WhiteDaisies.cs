@@ -1,6 +1,5 @@
 ﻿using BepInEx;
 using RoR2;
-using UnityEngine;
 using ItemCatalog = On.RoR2.ItemCatalog;
 
 namespace Tsunami
@@ -11,7 +10,7 @@ namespace Tsunami
     {
         public void Awake()
         {
-            On.RoR2.ItemCatalog.RegisterItem += (orig, index, def) =>
+            ItemCatalog.RegisterItem += (orig, index, def) =>
             {
                 if (index == ItemIndex.TPHealingNova)
                 {

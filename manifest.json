@@ -1,8 +1,8 @@
 {
     "name": "WhiteDaisies",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "https://github.com/NotTsunami/WhiteDaisies",
-    "description": "A Risk of Rain 2 that changes the rarity of Lepton Daisies to Tier 1 (White).",
+    "description": "Are Lepton Daisies really useful as a green rarity item? No! Make them white with this mod.",
     "dependencies": [
       "tristanmcpherson-R2API-2.3.22",
       "bbepis-BepInExPack-3.0.0"
